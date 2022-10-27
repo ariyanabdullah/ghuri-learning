@@ -2,9 +2,12 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <div>
-      <h1>THis is Blog </h1>
-    </div>
+    <section>
+      {/* 1st question */}
+      <div>
+        <h3> What is The cors in Node Js ?</h3>
+      </div>
+    </section>
   );
 };
 

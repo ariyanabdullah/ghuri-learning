@@ -14,7 +14,7 @@ const Premium = () => {
   const { d_hours, d_id, d_pic, d_title, price, rating } = premium;
   const { darkMode } = useContext(Mycontext);
 
-  const notify = () => toast.success("Wow! Your enroll is Successfull");
+  const notify = () => toast.success("Wow! Your checkout is Successfull");
 
   return (
     <div className={`${darkMode ? "premium-cource" : "bg-black"}`}>
@@ -48,7 +48,7 @@ const Premium = () => {
                     darkMode ? "btn btn-danger" : " btn btn-dark text-white"
                   }`}
                 >
-                  Buy Now
+                  Check Out
                 </button>
               </Card.Body>
             </Card>
