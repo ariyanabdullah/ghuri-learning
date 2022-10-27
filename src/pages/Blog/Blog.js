@@ -46,6 +46,17 @@ const Blog = () => {
 
         <div>
           <h3>4. What is Node? How does Node work?</h3>
+          <p>
+            =Node. js is a JavaScript runtime environment that achieves low
+            latency and high throughput by taking a “non-blocking” approach to
+            serving requests.
+            <br />
+            Node is completely event-driven. Basically the server consists of
+            one thread processing one event after another. A new request coming
+            in is one kind of event. The server starts processing it and when
+            there is a blocking IO operation, it does not wait until it
+            completes and instead registers a callback function.
+          </p>
         </div>
       </div>
     </section>
