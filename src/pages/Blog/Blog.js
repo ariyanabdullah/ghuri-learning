@@ -15,12 +15,12 @@ const Blog = () => {
           </p>
         </div>
         {/* second question */}
-        <div className="">
+        <div className="mx-auto my-5 shadow-lg rounded py-3 ps-2 pe-2">
           <h3>
             2. Why are you using firebase? What other options do you have to
             implement authentication?
           </h3>
-          <p>
+          <p className="lead">
             = Firebase Authentication provides backend services, easy-to-use
             SDKs, and ready-made UI libraries to authenticate users to your app.
             It supports authentication using passwords, phone numbers, popular
