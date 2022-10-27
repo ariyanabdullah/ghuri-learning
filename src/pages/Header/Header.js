@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link, useNavigate } from "react-router-dom";
-import { BsPersonCircle, BsMoon, BsLightbulb } from "react-icons/bs";
+import { BsPersonCircle, BsMoon, BsBrightnessHigh } from "react-icons/bs";
 import { useContext } from "react";
 import { Mycontext } from "../../Authcontext/Authcontext";
 import { Image } from "react-bootstrap";
@@ -80,30 +80,6 @@ const Header = () => {
             >
               FAQ
             </Link>
-            <div>
-              <span
-                role="button"
-                title="Dark Theme"
-                className={`${
-                  darkMode ? " me-3  text-white" : " text-white me-3 "
-                }`}
-                onClick={handleDarkTheme}
-              >
-                <BsMoon /> <small className="fw-bolder">Dark Theme</small>
-              </span>
-
-              <span
-                role="button"
-                title="Light Theme"
-                className={`${
-                  darkMode ? "me-3 text-white " : " text-white  me-3"
-                }`}
-                onClick={handleLightTheme}
-              >
-                <BsLightbulb />
-                <small className="fw-bolder">Light Theme</small>
-              </span>
-            </div>
           </Nav>
 
           <div className="d-flex align-items-center ">
@@ -153,6 +129,29 @@ const Header = () => {
                 </Link>
               </>
             )}
+            <div>
+              <span
+                role="button"
+                title="Dark Theme"
+                className={`${
+                  darkMode ? " text-white me-3  " : "text-white  me-3 "
+                }`}
+                onClick={handleDarkTheme}
+              >
+                <BsMoon />
+              </span>
+
+              <span
+                role="button"
+                title="Light Theme"
+                className={`${
+                  darkMode ? "me-3 text-white  " : " text-white  me-3"
+                }`}
+                onClick={handleLightTheme}
+              >
+                <BsBrightnessHigh />
+              </span>
+            </div>
           </div>
         </Navbar.Collapse>
       </Container>

@@ -1,5 +1,3 @@
-// reade me file information from me
-
 # website Name :
 
 name: Ghuri Learning
@@ -36,10 +34,6 @@ courses are : 1. HTML 2. CSS 3. Bootstrap 4. Tailwind 5. Javascript 6. React Js
                 2. css
                 3. Bootstrap
                 4. React with firebase authintication
-
-
-
-// readme file information from Me //
 
 # Getting Started with Create React App
 
