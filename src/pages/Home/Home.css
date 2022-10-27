@@ -1,0 +1,77 @@
+.home-banner{
+
+  
+    background-image: url('../../asset/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 150px 0;
+
+    position: relative;
+    z-index: 1;
+
+}
+
+.home-banner::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(17 17 17 / 67%);
+    z-index: -1;
+}
+.home-card{
+    background-color: #4b0209;
+    padding: 50px 0;
+}
+.card-box1 {
+    padding: 31px 25px;
+    border: 6px solid #8a171a;
+    border-radius: 12px;
+}
+
+.card-box2 {
+    padding: 31px 25px;
+    border: 6px solid #3a3559;
+    border-radius: 12px;
+}
+.card-box3 {
+    padding: 31px 25px;
+    border: 6px solid #610f0f;
+    border-radius: 12px;
+}
+.won-icon{
+    font-size: 40px;
+    background-color: #0a1f3c;
+    color: #ffffff;
+    height: 50px;
+   width: 50px;
+   border-radius: 50px;
+}
+.exp{
+    display: flex;
+}
+.testimonial{
+    background-color: #0a1f3c;
+}
+.testimonial-img{
+ position: relative;
+ z-index: 1;
+}
+.testimonial-img::after{
+    content:"";
+    width: 100%;
+    height: 100%;
+    top: 10px;
+    left:10px;
+    background-color: #0a1f3c;
+    position: absolute;
+    z-index: -1;
+    border: 1px solid #0a1f3c;
+    border-radius: 10px;
+    
+}
+
+
