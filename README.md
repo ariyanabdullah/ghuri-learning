@@ -1,3 +1,46 @@
+// reade me file information from me
+
+# website Name :
+
+name: Ghuri Learning
+
+# live website
+
+link: https://ghuri-learning-client.web.app/
+
+// feature :
+
+# 1. There are six different course in this website.
+
+courses are : 1. HTML 2. CSS 3. Bootstrap 4. Tailwind 5. Javascript 6. React Js
+
+# 2. Full frontend Packege:
+
+- from this website a learner can learn complete frontend web programing language
+
+# 3. Dark and light Theme :
+
+- A visitor can see the website with dark mode and light mode as he want .
+
+# 4. Download PDF:
+
+- A learner can download Course Details from the download PDF button . We have implement download featuer in This websit.
+
+# 5. Amazing Registration and Log In System :
+
+- A visitor can Register in this website with his github profile or google account or email and password which he want .After successfull log in , then he can purchage our course finally.
+
+# Programing Language which we used To Make This website:
+
+      language: 1. html
+                2. css
+                3. Bootstrap
+                4. React with firebase authintication
+
+
+
+// readme file information from Me //
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,4 +111,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # b610-learning-platform-client-side-ariyanabdullah
