@@ -33,9 +33,9 @@ const Blog = () => {
           </p>
         </div>
         {/* third question */}
-        <div>
+        <div className="mx-auto my-5 shadow-lg rounded py-3 ps-2 pe-2">
           <h3>3. How does the private route work?</h3>
-          <p>
+          <p className="lead">
             = In English The react private route component renders child
             components ( children ) if the user is logged in. If not logged in
             the user is redirected to the /login page with the return url passed
