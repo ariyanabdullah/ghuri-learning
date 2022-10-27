@@ -44,9 +44,9 @@ const Blog = () => {
         </div>
         {/* fourth question */}
 
-        <div>
+        <div className="mx-auto my-5 shadow-lg rounded py-3 ps-2 pe-2">
           <h3>4. What is Node? How does Node work?</h3>
-          <p>
+          <p className="lead">
             =Node. js is a JavaScript runtime environment that achieves low
             latency and high throughput by taking a “non-blocking” approach to
             serving requests.
