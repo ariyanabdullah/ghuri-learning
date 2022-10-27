@@ -5,7 +5,7 @@ const Blog = () => {
     <section>
       <div className="mx-auto w-75">
         {/* 1st question */}
-        <div className="mx-auto my-5 shadow-lg rounded py-3 ps-2 pe-2">
+        <div className="mx-auto my-3 shadow-lg rounded py-3 ps-2 pe-2">
           <h3>1. What is The cors in Node Js ?</h3>
           <p className="lead">
             = CORS stands for Cross-Origin Resource Sharing . It allows us to
@@ -15,7 +15,7 @@ const Blog = () => {
           </p>
         </div>
         {/* second question */}
-        <div className="mx-auto my-5 shadow-lg rounded py-3 ps-2 pe-2">
+        <div className="mx-auto my-3 shadow-lg rounded py-3 ps-2 pe-2">
           <h3>
             2. Why are you using firebase? What other options do you have to
             implement authentication?
@@ -33,7 +33,7 @@ const Blog = () => {
           </p>
         </div>
         {/* third question */}
-        <div className="mx-auto my-5 shadow-lg rounded py-3 ps-2 pe-2">
+        <div className="mx-auto my-3 shadow-lg rounded py-3 ps-2 pe-2">
           <h3>3. How does the private route work?</h3>
           <p className="lead">
             = In English The react private route component renders child
@@ -44,7 +44,7 @@ const Blog = () => {
         </div>
         {/* fourth question */}
 
-        <div className="mx-auto my-5 shadow-lg rounded py-3 ps-2 pe-2">
+        <div className="mx-auto my-3 shadow-lg rounded py-3 ps-2 pe-2">
           <h3>4. What is Node? How does Node work?</h3>
           <p className="lead">
             =Node. js is a JavaScript runtime environment that achieves low
