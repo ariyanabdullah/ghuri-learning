@@ -32,6 +32,10 @@ const Blog = () => {
             Authentication.
           </p>
         </div>
+        {/* third question */}
+        <div>
+          <h3>3. How does the private route work?</h3>
+        </div>
       </div>
     </section>
   );
