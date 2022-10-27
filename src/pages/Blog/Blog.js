@@ -42,6 +42,11 @@ const Blog = () => {
             in the location state property
           </p>
         </div>
+        {/* fourth question */}
+
+        <div>
+          <h3>4. What is Node? How does Node work?</h3>
+        </div>
       </div>
     </section>
   );
